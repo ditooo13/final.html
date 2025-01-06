@@ -1,0 +1,366 @@
+:root {
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-green: #74C69D;
+}
+
+.green {
+    background-color: #74C69D
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-text {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 15px;
+}
+
+.m1 {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.m2 {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.m3 {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.m4 {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.Welcome {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px 0;
+    gap: 30px;
+    align-items: center;
+}
+
+.Welcome-label {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    line-height: 125%;
+}
+
+.Welcome-title {
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 125%;
+    letter-spacing: 0px;
+}
+
+.Welcome-text {
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: normal;
+    line-height: 125%;
+    letter-spacing: 0px;
+}
+
+.Welcome-button {
+    color: #000000;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 8px;
+    padding: 10px 40px;
+    cursor: pointer;
+    align-self: start;
+    margin-top: 20px;
+}
+
+.Welcome-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-paragraph {
+    text-align: center;
+}
+
+.hero-label {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #74C69D;
+    line-height: 125%;
+}
+
+.hero-title {
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero-text {
+    font-size: 20px;
+}
+
+.hero-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-logos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 1440px;
+    margin: auto;
+    align-items: center;
+}
+
+.hero-logos img {
+    align-self: center;
+    justify-self: center;
+}
+
+
+.hero-button {
+    color: #FFFFFF;
+    background-color: #000000;
+    cursor: pointer;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 8px;
+    padding: 10px 40px;
+    justify-self: center;
+}
+
+.hero {
+    display: grid;
+    gap: 30px;
+    padding: 40px 0px;
+    align-items: center;
+}
+
+.seqciasami {
+    display: grid;
+    padding: 40px 0px;
+    gap: 25px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.seqciasami-title {
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.seqciasami-text {
+    color: #212529;
+    opacity: 50%;
+    font-size: 25px;
+}
+
+.seqciasami-button {
+    color: #FFFFFF;
+    background-color: #000000;
+    cursor: pointer;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 8px;
+    padding: 10px 40px;
+    justify-self: center;
+    align-self: start;
+}
+
+.seqciasami-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.seqciaotxi {
+    display: grid;
+    padding: 40px 0px;
+    gap: 25px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.seqciaotxi-title {
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.seqciaotxi-text {
+    color: #212529;
+    opacity: 50%;
+    font-size: 25px;
+}
+
+.seqciaotxi-button {
+    color: #FFFFFF;
+    background-color: #000000;
+    cursor: pointer;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 8px;
+    padding: 10px 40px;
+    justify-self: center;
+    align-self: start;
+}
+
+.seqciaotxi-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.teams-paragraph {
+    text-align: center;
+    display: grid;
+    gap: 10px;
+}
+
+.teams-label {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #74C69D;
+    line-height: 125%;
+}
+
+.teams-title {
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.teams-text {
+    color: #000000;
+    font-size: 20px;
+}
+
+.teams-cards {
+    align-self: center;
+    justify-self: center;
+}
+
+.teams {
+    display: grid;
+    gap: 30px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.teams-button {
+    color: #FFFFFF;
+    background-color: #000000;
+    cursor: pointer;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 8px;
+    padding: 10px 40px;
+    justify-self: center;
+    align-self: start;
+}
+
+.footer {
+    background-color: #74C69D;
+}
+
+.footerlogos {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+.footersocials {
+    display: flex;
+    gap: 10px;
+}
+
+.footercopyright {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.seqciaerti-content {
+    text-align: center;
+}
+
+.seqciaerti-lable {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #74C69D;
+    line-height: 125%;
+}
+
+.seqciaerti-title {
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.seqciaerti-text {
+    color: #212529;
+    font-size: 25px;
+}
+
+.seqciaerti {
+    display: grid;
+    gap: 20px;
+}
+
+.seqciaerti-button {
+    color: #FFFFFF;
+    background-color: #000000;
+    cursor: pointer;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 8px;
+    padding: 10px 40px;
+    justify-self: center;
+    align-self: start;
+}
+
